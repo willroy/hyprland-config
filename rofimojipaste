@@ -1,0 +1,5 @@
+#!/bin/bash
+emoji=$(/usr/bin/rofimoji --selector rofi --action copy --clipboarder wl-copy)
+sleep 0.1
+/usr/bin/wtype "$(/usr/bin/wl-paste)"
+
